@@ -1,0 +1,28 @@
+[build-system]
+requires = ["flit_core"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "dinomat"
+authors = [
+    { name = "Ramakrishna Venkitakrishnan", email = "ramakrishna.venkitakrishnan@kit.edu" },
+    { name = "Yannick Augenstein", email = "yannick.augenstein@kit.edu" },
+    { name = "Benedikt Zerulla" },
+    { name = "Fatima Goffi" },
+    { name = "Michael Plum" },
+    { name = "Carsten Rockstuhl" },
+]
+description = "Differentiable Non-Local Metamaterial Homogenization"
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dynamic = ["version"]
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "matplotlib", "jax", "jaxlib", "tqdm"]
+
+[project.urls]
+Source = "https://github.com/tfp-photonics/dinomat"
