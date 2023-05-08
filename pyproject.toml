@@ -22,7 +22,10 @@ classifiers = [
 ]
 dynamic = ["version"]
 requires-python = ">=3.9"
-dependencies = ["numpy", "scipy", "matplotlib", "jax", "jaxlib", "tqdm"]
+dependencies = ["jax", "jaxlib"]
 
 [project.urls]
 Source = "https://github.com/tfp-photonics/dinomat"
+
+[project.optional-dependencies]
+examples = ["numpy", "scipy", "matplotlib", "tqdm"]
