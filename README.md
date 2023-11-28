@@ -2,7 +2,7 @@
 
 **Di**fferentiable **No**n-Local **Mat**erial Homogenization
 
-This repository contains code for the paper "On the Physical Significance of Non-Local Material Parameters in Optical Metamaterials" ([NJP](https://iopscience.iop.org/article/10.1088/1367-2630/ad1010)]).
+This repository contains code for the paper "On the Physical Significance of Non-Local Material Parameters in Optical Metamaterials" ([NJP](https://iopscience.iop.org/article/10.1088/1367-2630/ad1010)).
 
 ## Installation
 
